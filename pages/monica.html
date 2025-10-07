@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josef Albers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+        rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root{
+            --azul: #2491a4;
+            --pistacho: #4c9f4b;
+            --verde:#3a7150;
+            --gris: #405b64;
+        }
+        body{
+            overflow: hidden;
+        }
+        header{
+            padding: 1em;
+            position: fixed;
+            bottom: 0%;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        a {
+            color: white;
+            border-bottom: solid white 3px;
+            text-decoration: none;
+        }
+        h1,
+        h2,
+        h3{
+            font-size: 1.5rem;
+            color: white;
+        }
+        #azul{
+            padding: 12vh 11.16vw 1rem 11.16vw;
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--azul);
+        }
+        #pistacho{
+            padding: 11vh 11.16vw 1rem 11.16vw;
+            background-color: var(--pistacho);
+        }
+        #verde{
+            padding: 10vh 11.16vw 1rem 11.16vw;
+            background-color: var(--verde);
+        }
+        #gris{
+            width: 33vw;
+            height: 33vh;
+            background-color: var(--gris);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soft, 1969</h1>
+        <h2>Josef Albers</h2>
+        <h3>by <a href="#">@moniiicaangel</a></h3>
+    </header>
+    <div id="azul">
+        <!-- <p>azul</p> -->
+        <div id="pistacho">
+            <!-- <p>pistacho</p> -->
+            <div id="verde">
+                <!-- <p>verde </p> -->
+                <div id="gris">
+                    <!-- <p>gris</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
